@@ -1,0 +1,41 @@
+{
+  "name": "org.zowe.zlux.sample.react",
+  "version": "1.1.1",
+  "description": "A sample react showcasing react framework in Zowe App Framework",
+  "license": "EPL-2.0",
+  "dependencies": {
+    "i18next": "~15.1.0",
+    "i18next-browser-languagedetector": "~3.0.1",
+    "i18next-xhr-backend": "~2.0.1",
+    "react": "~16.8.6",
+    "react-dom": "~16.8.6",
+    "react-i18next": "~10.9.0",
+    "react-router": "~4.3.1",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack --progress --colors",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "~23.0.2",
+    "@types/react": "~16.3.18",
+    "@types/react-dom": "~16.0.11",
+    "copy-webpack-plugin": "~5.1.2",
+    "css-loader": "~1.0.0",
+    "exports-loader": "~0.7.0",
+    "file-loader": "~1.1.11",
+    "handlebars": "~4.7.7",
+    "html-loader": "~0.5.5",
+    "script-loader": "~0.7.2",
+    "source-map-loader": "~0.2.3",
+    "ts-loader": "~4.4.2",
+    "tslint": "~5.10.0",
+    "typescript": "~2.9.0",
+    "url-loader": "~1.0.1",
+    "webpack": "~4.41.6",
+    "webpack-cli": "^3.3.12",
+    "webpack-config": "~7.5.0"
+  }
+}
